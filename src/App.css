@@ -36,6 +36,18 @@
   font-size: 1.3rem;
 }
 
+.click-button {
+  box-shadow: 0 0 2rem 0.1rem rgb(207, 207, 207);
+  animation: scale-button 2s infinite;
+}
+
+@keyframes scale-button {
+  50% {
+    transform: scale(1.15);
+  }
+
+}
+
 .diwalicard {
   box-shadow: 0 0.2rem 0.5rem 0.1rem rgb(242, 153, 10);
   background-color: #032356d3;
